@@ -1,14 +1,4 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+pub mod _1_two_sum;
+pub mod _506_relative_ranks;
+pub mod _3591_check_if_any_element_has_prime_frequency;
+pub mod _326_power_of_threers;
