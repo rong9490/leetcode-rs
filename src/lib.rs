@@ -5,3 +5,8 @@ pub mod _326_power_of_threers;
 pub mod _20_valid_parentheses;
 pub mod _14_longest_common_prefix;
 pub mod _21_merge_two_sorted_lists;
+pub mod _2769_find_the_maximum_achievable_number;
+pub mod _3110_score_of_a_string;
+pub mod _3280_convert_date_to_binary;
+pub mod _2942_find_words_containing_character;
+pub mod _3285_find_indices_of_stable_mountains;
