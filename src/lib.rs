@@ -10,3 +10,5 @@ pub mod _3110_score_of_a_string;
 pub mod _3280_convert_date_to_binary;
 pub mod _2942_find_words_containing_character;
 pub mod _3285_find_indices_of_stable_mountains;
+pub mod _3512_minimum_operations_to_make_array_sum_divisible_by_k;
+pub mod _1394_find_lucky_integer_in_an_array;
