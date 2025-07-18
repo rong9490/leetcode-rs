@@ -12,3 +12,8 @@ pub mod _2942_find_words_containing_character;
 pub mod _3285_find_indices_of_stable_mountains;
 pub mod _3512_minimum_operations_to_make_array_sum_divisible_by_k;
 pub mod _1394_find_lucky_integer_in_an_array;
+pub mod _2894_divisible_and_non_divisible_sums_difference;
+pub mod _3516_find_closest_person;
+pub mod _2545_sort_the_students_by_their_kth_score;
+pub mod _3502_minimum_cost_to_reach_every_position;
+pub mod _3065_minimum_operations_to_exceed_threshold_value_i;
