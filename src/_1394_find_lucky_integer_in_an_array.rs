@@ -71,22 +71,26 @@
 struct Solution;
 
 // @lc code=start
+use std::collections::hash_map::IntoIter as HashMapIntoIter;
 use std::collections::HashMap;
+use std::vec::IntoIter;
 
 impl Solution {
     pub fn find_lucky(arr: Vec<i32>) -> i32 {
+        let arr_iter: IntoIter<i32> = arr.into_iter();
         // 统计频数
-        let map: HashMap<i32, i32> = arr.into_iter().fold(HashMap::new(), |mut map, x| {
+        let map: HashMap<i32, i32> = arr_iter.fold(HashMap::new(), |mut map, x| {
             *map.entry(x).or_insert(0) += 1;
             map
         });
 
         // 满足条件最大的
-        map.into_iter()
+        let map_iter: HashMapIntoIter<i32, i32> = map.into_iter();
+        let values = map_iter
             .filter(|&(key, value)| key == value)
-            .map(|(key, _)| key)
-            .max()
-            .unwrap_or(-1)
+            .map(|(key, _)| key);
+        let val_max: i32 = values.max().unwrap_or(-1);
+        val_max
     }
 }
 // @lc code=end
