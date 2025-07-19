@@ -17,3 +17,5 @@ pub mod _3516_find_closest_person;
 pub mod _2545_sort_the_students_by_their_kth_score;
 pub mod _3502_minimum_cost_to_reach_every_position;
 pub mod _3065_minimum_operations_to_exceed_threshold_value_i;
+pub mod _2974_minimum_number_game;
+pub mod _1920_build_array_from_permutation;
