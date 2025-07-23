@@ -61,7 +61,7 @@
  *
  */
 
-struct Solution {}
+pub struct Solution;
 
 // @lc code=start
 use std::slice::Iter;

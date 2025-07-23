@@ -19,3 +19,7 @@ pub mod _3502_minimum_cost_to_reach_every_position;
 pub mod _3065_minimum_operations_to_exceed_threshold_value_i;
 pub mod _2974_minimum_number_game;
 pub mod _1920_build_array_from_permutation;
+pub mod _807_max_increase_to_keep_city_skyline;
+pub mod _808_soup_servings;
+pub mod _2798_number_of_employees_who_met_the_target;
+pub mod _3248_snake_in_matrix;
