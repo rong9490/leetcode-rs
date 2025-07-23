@@ -58,12 +58,12 @@
  * 
  */
 
-struct Solution {}
+pub struct Solution {}
 
 // @lc code=start
 impl Solution {
     pub fn number_game(mut nums: Vec<i32>) -> Vec<i32> {
-        nums.sort_unstable(); // 升序排序
+        nums.sort_unstable(); // 升序排序 sort, sort_unstable
 
         // step_by(2) 每次移动两位
         // for i in (1..nums.len()).step_by(2) {
