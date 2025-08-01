@@ -22,4 +22,7 @@ pub mod _1920_build_array_from_permutation;
 pub mod _807_max_increase_to_keep_city_skyline;
 pub mod _808_soup_servings;
 pub mod _2798_number_of_employees_who_met_the_target;
-pub mod _3248_snake_in_matrix;
+pub mod _3248_snake_in_matrix; // 0723
+pub mod _118_pascals_triangle; // 0801
+pub mod _3211_generate_binary_strings_without_adjacent_zeros;
+pub mod _1828_queries_on_number_of_points_inside_a_circle;
