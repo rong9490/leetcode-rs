@@ -64,7 +64,7 @@ pub struct Solution;
 // @lc code=start
 impl Solution {
     pub fn soup_servings(n: i32) -> f64 {
-        
+        todo!()
     }
 }
 // @lc code=end

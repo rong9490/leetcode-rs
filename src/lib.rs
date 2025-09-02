@@ -28,3 +28,4 @@ pub mod _3211_generate_binary_strings_without_adjacent_zeros;
 pub mod _1828_queries_on_number_of_points_inside_a_circle;
 pub mod _3168_minimum_number_of_chairs_in_a_waiting_room; // 0812
 pub mod _1769_minimum_number_of_operations_to_move_all_balls_to_each_box;
+pub mod _3668_restore_finishing_order;
