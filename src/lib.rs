@@ -29,3 +29,7 @@ pub mod _1828_queries_on_number_of_points_inside_a_circle;
 pub mod _3168_minimum_number_of_chairs_in_a_waiting_room; // 0812
 pub mod _1769_minimum_number_of_operations_to_move_all_balls_to_each_box;
 pub mod _3668_restore_finishing_order;
+pub mod _2749_minimum_operations_to_make_the_integer_zero; // 0906
+pub mod _66_plus_one;
+pub mod _100_same_tree;
+pub mod _70_climbing_stairs;
