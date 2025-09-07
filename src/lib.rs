@@ -33,3 +33,4 @@ pub mod _2749_minimum_operations_to_make_the_integer_zero; // 0906
 pub mod _66_plus_one;
 pub mod _100_same_tree;
 pub mod _70_climbing_stairs;
+pub mod _1304_find_n_unique_integers_sum_up_to_zero;
