@@ -38,3 +38,5 @@ pub mod _50_pow_x_n;
 pub mod _69_sqrtx;
 pub mod _605_can_place_flowers;
 pub mod _268_missing_number;
+pub mod _1317_convert_integer_to_the_sum_of_two_no_zero_integers;
+pub mod _228_summary_ranges;
