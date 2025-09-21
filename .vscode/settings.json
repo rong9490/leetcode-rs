@@ -1,10 +1,14 @@
 {
+  "github.copilot.enable": {
+    "*": false,
+  },
+  "window.confirmSaveUntitledWorkspace": false,
+
   "leetcode.endpoint": "leetcode-cn",
   "leetcode.workspaceFolder": "/Users/hejj/WorkSpace/Zed25/rust-hejj/leetcode-rs",
   "leetcode.useEndpointTranslation": false,
   "leetcode.showDescription": "In File Comment",
   "leetcode.defaultLanguage": "rust",
-  "window.confirmSaveUntitledWorkspace": false,
   "leetcode.filePath": {
     "default": {
       "folder": "src",
