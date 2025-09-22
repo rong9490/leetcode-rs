@@ -45,3 +45,5 @@ pub mod _9_palindrome_number; // 20250917
 pub mod _125_valid_palindrome;
 pub mod __2566_maximum_difference_by_remapping_a_digit; //09
 pub mod _88_merge_sorted_array; // 0921
+pub mod _3005_count_elements_with_maximum_frequency; // 0922
+pub mod _263_ugly_number;
