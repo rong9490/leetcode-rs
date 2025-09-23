@@ -47,3 +47,5 @@ pub mod __2566_maximum_difference_by_remapping_a_digit; //09
 pub mod _88_merge_sorted_array; // 0921
 pub mod _3005_count_elements_with_maximum_frequency; // 0922
 pub mod _263_ugly_number;
+pub mod _165_compare_version_numbers; // 0923
+pub mod _121_best_time_to_buy_and_sell_stock;
