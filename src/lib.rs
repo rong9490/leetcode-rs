@@ -53,3 +53,6 @@ pub mod _88_merge_sorted_array; // 0921
 pub mod _9_palindrome_number; // 20250917
 pub mod _2566_maximum_difference_by_remapping_a_digit; //09
 pub mod _3_longest_substring_without_repeating_characters;
+pub mod _278_first_bad_version;
+pub mod _231_power_of_two;
+pub mod _206_reverse_linked_list;

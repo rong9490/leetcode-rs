@@ -60,6 +60,7 @@ use std::cmp;
 use std::collections::HashSet;
 impl Solution {
     pub fn length_of_longest_substring(s: String) -> i32 {
+        // TODO 优化理解
         let n: usize = s.len();
         let bytes: &[u8] = s.as_bytes();
         let mut length: usize = 0;
