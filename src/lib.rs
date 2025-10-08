@@ -60,3 +60,5 @@ pub mod _812_largest_triangle_area;
 pub mod _976_largest_perimeter_triangle;
 pub mod _374_guess_number_higher_or_lower;
 pub mod _405_convert_a_number_to_hexadecimal;
+pub mod _453_minimum_moves_to_equal_array_elements;
+pub mod _942_di_string_match;
