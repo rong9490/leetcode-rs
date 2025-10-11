@@ -64,3 +64,4 @@ pub mod _453_minimum_moves_to_equal_array_elements;
 pub mod _942_di_string_match;
 pub mod _1175_prime_arrangements;
 pub mod _1266_minimum_time_visiting_all_points;
+pub mod _1189_maximum_number_of_balloons;
