@@ -65,3 +65,6 @@ pub mod _942_di_string_match;
 pub mod _1175_prime_arrangements;
 pub mod _1266_minimum_time_visiting_all_points;
 pub mod _1189_maximum_number_of_balloons;
+pub mod _1207_unique_number_of_occurrences;
+pub mod _2433_find_the_original_array_of_prefix_xor;
+pub mod _2391_minimum_amount_of_time_to_collect_garbage;
