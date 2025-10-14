@@ -68,3 +68,5 @@ pub mod _1189_maximum_number_of_balloons;
 pub mod _1207_unique_number_of_occurrences;
 pub mod _2433_find_the_original_array_of_prefix_xor;
 pub mod _2391_minimum_amount_of_time_to_collect_garbage;
+pub mod _717_1_bit_and_2_bit_characters;
+pub mod _3349_adjacent_increasing_subarrays_detection_i;
