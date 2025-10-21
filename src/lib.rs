@@ -71,3 +71,5 @@ pub mod _2391_minimum_amount_of_time_to_collect_garbage;
 pub mod _717_1_bit_and_2_bit_characters;
 pub mod _3349_adjacent_increasing_subarrays_detection_i;
 pub mod _2598_smallest_missing_non_negative_integer_after_operations;
+pub mod _3346_maximum_frequency_of_an_element_after_performing_operations_i;
+pub mod _1002_find_common_characters;
