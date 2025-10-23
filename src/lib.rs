@@ -73,3 +73,6 @@ pub mod _3349_adjacent_increasing_subarrays_detection_i;
 pub mod _2598_smallest_missing_non_negative_integer_after_operations;
 pub mod _3346_maximum_frequency_of_an_element_after_performing_operations_i;
 pub mod _1002_find_common_characters;
+pub mod _3461_check_if_digits_are_equal_in_string_after_operations_i;
+pub mod _1816_truncate_sentence;
+pub mod _2239_find_closest_number_to_zero;
