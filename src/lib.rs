@@ -76,3 +76,6 @@ pub mod _1002_find_common_characters;
 pub mod _3461_check_if_digits_are_equal_in_string_after_operations_i;
 pub mod _1816_truncate_sentence;
 pub mod _2239_find_closest_number_to_zero;
+pub mod _3370_smallest_number_with_all_set_bits; // 1029
+pub mod _1945_sum_of_digits_of_string_after_convert;
+pub mod _2315_count_asterisks;
