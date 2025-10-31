@@ -79,3 +79,5 @@ pub mod _2239_find_closest_number_to_zero;
 pub mod _3370_smallest_number_with_all_set_bits; // 1029
 pub mod _1945_sum_of_digits_of_string_after_convert;
 pub mod _2315_count_asterisks;
+pub mod _3289_find_indices_of_stable_mountains;
+pub mod _657_robot_return_to_origin;
