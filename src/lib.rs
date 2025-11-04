@@ -81,3 +81,6 @@ pub mod _1945_sum_of_digits_of_string_after_convert;
 pub mod _2315_count_asterisks;
 pub mod _3289_find_indices_of_stable_mountains;
 pub mod _657_robot_return_to_origin;
+pub mod _3318_find_x_sum_of_all_k_long_subarrays_i; // 1104
+pub mod _977_squares_of_a_sorted_array;
+pub mod _1252_cells_with_odd_values_in_a_matrix;
