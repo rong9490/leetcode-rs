@@ -84,3 +84,6 @@ pub mod _657_robot_return_to_origin;
 pub mod _3318_find_x_sum_of_all_k_long_subarrays_i; // 1104
 pub mod _977_squares_of_a_sorted_array;
 pub mod _1252_cells_with_odd_values_in_a_matrix;
+pub mod _89_gray_code;
+pub mod _2169_count_operations_to_obtain_zero;
+pub mod _1217_minimum_cost_to_move_chips_to_the_same_position;
