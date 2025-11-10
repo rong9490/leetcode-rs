@@ -87,3 +87,5 @@ pub mod _1252_cells_with_odd_values_in_a_matrix;
 pub mod _89_gray_code;
 pub mod _2169_count_operations_to_obtain_zero;
 pub mod _1217_minimum_cost_to_move_chips_to_the_same_position;
+pub mod _661_image_smoother;
+pub mod _728_self_dividing_numbers;
