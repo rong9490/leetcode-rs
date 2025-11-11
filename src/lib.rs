@@ -89,3 +89,5 @@ pub mod _2169_count_operations_to_obtain_zero;
 pub mod _1217_minimum_cost_to_move_chips_to_the_same_position;
 pub mod _661_image_smoother;
 pub mod _728_self_dividing_numbers;
+pub mod _1812_determine_color_of_a_chessboard_square; // 1111
+pub mod _1832_check_if_the_sentence_is_pangram;
