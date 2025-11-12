@@ -91,3 +91,5 @@ pub mod _661_image_smoother;
 pub mod _728_self_dividing_numbers;
 pub mod _1812_determine_color_of_a_chessboard_square; // 1111
 pub mod _1832_check_if_the_sentence_is_pangram;
+pub mod _709_to_lower_case;
+pub mod _762_prime_number_of_set_bits_in_binary_representation;
