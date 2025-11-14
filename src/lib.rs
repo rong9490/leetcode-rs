@@ -93,3 +93,5 @@ pub mod _1812_determine_color_of_a_chessboard_square; // 1111
 pub mod _1832_check_if_the_sentence_is_pangram;
 pub mod _709_to_lower_case;
 pub mod _762_prime_number_of_set_bits_in_binary_representation;
+pub mod _1260_shift_2d_grid;
+pub mod _1827_minimum_operations_to_make_the_array_increasing;

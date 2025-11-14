@@ -73,22 +73,59 @@ struct Solution;
 // @lc code=start
 impl Solution {
     pub fn odd_cells(m: i32, n: i32, indices: Vec<Vec<i32>>) -> i32 {
-        // 核心理解: 奇偶本质就是, true/false 的不断翻转
-        let mut row: u64 = 0u64; // m,n最大50位 -> u64共64为, 可以容纳 --> 本质跟Vec::from_capcity(50)类似
-        let mut col: u64 = 0u64;
+        // // 核心理解: 奇偶本质就是, true/false 的不断翻转
+        // let mut row: u64 = 0u64; // m,n最大50位 -> u64共64为, 可以容纳 --> 本质跟Vec::from_capcity(50)类似
+        // let mut col: u64 = 0u64;
+        // for e in &indices {
+        //     let ri: u64 = e[0] as u64; // 行号
+        //     let ci: u64 = e[1] as u64; // 列号
+        //     row ^= 1u64 << ri; // 除了ri位不翻转, 其余翻转
+        //     col ^= 1u64 << ci; // 除了ci列不翻转, 其余翻转
+        // }
+        // // 分别统计二进制中1的个数 --> 1代表的是true, 是偶数
+        // let cx: i32 = row.count_ones() as i32;
+        // let cy: i32 = col.count_ones() as i32;
+        // // true & false -> 奇数
+        // cx * (n - cy) + cy * (m - cx)
 
-        for e in &indices {
-            let ri: u64 = e[0] as u64; // 行号
-            let ci: u64 = e[1] as u64; // 列号
-            row ^= 1u64 << ri; // 除了ri位不翻转, 其余翻转
-            col ^= 1u64 << ci; // 除了ci列不翻转, 其余翻转
+        // // m行 / n列: 创建空白矩阵, 模拟翻转过程 (m作为行是在外层的)
+        // let mut arr : Vec<Vec<i32>>= vec![vec![0; n as usize]; m as usize];
+        // // 遍历"指令": [r, c], r代表行加1, c代表列加1
+        // for cmd in indices {
+        //     let r: usize = cmd[0] as usize;
+        //     let c: usize = cmd[1] as usize;
+        //     for i in 0..n {
+        //         // 该行, 每一位格子加1
+        //         arr[r as usize][i as usize] += 1;
+        //     }
+        //     for i in 0..m {
+        //         // 该列, 每一个格子加1
+        //         arr[i as usize][c as usize] += 1;
+        //     }
+        // }
+        // let mut ans: i32 = 0i32;
+        // for i in 0..m {
+        //     for j in 0..n {
+        //         if arr[i as usize][j as usize] % 2 == 1 { ans += 1 }
+        //     }
+        // }
+        // ans
+
+        let m: usize = m as usize;
+        let n: usize = n as usize;
+        let mut row_ops: Vec<i32> = vec![0i32; m];
+        let mut col_ops: Vec<i32> = vec![0i32; n];
+        for cmd in indices {
+            let r: usize = cmd[0] as usize;
+            let c: usize = cmd[1] as usize;
+            row_ops[r] += 1;
+            col_ops[c] += 1;
         }
-
-        // 分别统计二进制中1的个数 --> 1代表的是true, 是偶数
-        let cx: i32 = row.count_ones() as i32;
-        let cy: i32 = col.count_ones() as i32;
-        // true & false -> 奇数
-        cx * (n - cy) + cy * (m - cx)
+        let odd_rows: usize = row_ops.iter().filter(|&&x| x % 2 == 1).count();
+        let odd_cols: usize = col_ops.iter().filter(|&&x| x % 2 == 1).count();
+        let even_rows: usize = m - odd_rows;
+        let even_cols: usize = n - odd_cols;
+        odd_rows as i32 * even_cols as i32 + even_rows as i32 * odd_cols as i32
     }
 }
 // @lc code=end
