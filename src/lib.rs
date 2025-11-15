@@ -95,3 +95,5 @@ pub mod _709_to_lower_case;
 pub mod _762_prime_number_of_set_bits_in_binary_representation;
 pub mod _1260_shift_2d_grid;
 pub mod _1827_minimum_operations_to_make_the_array_increasing;
+pub mod _2485_ind_the_pivot_integer;
+pub mod _2574_left_and_right_sum_differences;
