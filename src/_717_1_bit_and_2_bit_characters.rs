@@ -80,24 +80,30 @@ impl Solution {
         //             _ => unreachable!(),
         //         }
         //     })
+        // 依然反转, 统计1的个数,
+        // let mut cnt: i32 = 0;
+        // for i in (0..bits.len() - 1).rev() {
+        //     if bits[i] == 1 {
+        //         cnt += 1
+        //     } else {
+        //         break;
+        //     }
+        // }
+        // cnt % 2 == 0
 
-        // 依然反转, 统计1的个数, 
-        let mut cnt: i32 = 0;
-        for i in (0..bits.len() - 1).rev() {
-            if bits[i] == 1 {
-                cnt += 1
-            } else {
-                break;
-            }
+        let size: usize = bits.len();
+        let mut i = 0;
+        while i < size - 1 {
+            // 循环直到剩下至多一个数字
+            i += (bits[i] + 1) as usize; // 如果 bits[i] == 1 则跳过下一位
         }
-        cnt % 2 == 0
+        i == size - 1 // 注意题目保证 bits[n-1] == 0，无需判断
 
         // 理解, 一次性可以走一步, 或者走两步, 走到n-1的位置
         // pos = 0
         // while pos < len(bits) - 1:
         //   pos += 2 if bits[pos] == 1 else 1
         // return pos == len(bits) - 1
-
     }
 }
 // @lc code=end
