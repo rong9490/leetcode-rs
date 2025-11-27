@@ -103,3 +103,6 @@ pub mod _1413_minimum_value_to_get_positive_step_by_step_sum;
 // pub mod _467_unique_substrings_in_wraparound_string;
 // pub mod _476_number_complement;
 pub mod _1859_sorting_the_sentence;
+
+pub mod _1854_maximum_population_year;
+pub mod _1913_maximum_product_difference_between_two_pairs; // 1127
