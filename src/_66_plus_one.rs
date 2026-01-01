@@ -9,21 +9,23 @@ struct Solution;
 // @lc code=start
 impl Solution {
     pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {
-        let mut result: Vec<i32> = Vec::from(digits); // 复制一份
+        let mut digits_shadow: Vec<i32> = Vec::from(digits); // 副本
+        let size: usize = digits_shadow.len();
+        let idxs = (0..size).rev(); // 序号倒序
 
-        // 序号从到往小
-        for i in (0..result.len()).rev() {
-            let val: i32 = result[i];
+        for i in idxs {
+            let val: i32 = digits_shadow[i];
             if val != 9 {
-                result[i] += 1; // 最高位直接加了返回, 不会进位
-                return result;
-            } else {
-                result[i] = 0; // 进位了, 当前位置为0 --> 最后再来补1
+                digits_shadow[i] += 1; // 最高位+1, 无需进位
+                return digits_shadow;
             }
+            // 需要进位: 当前位置置0, 上面(下一位)自动+1
+            digits_shadow[i] = 0;
         }
-        // 走到这里: 一定是全是9, 不断进位到需要补位!
-        result.insert(0, 1); // 在数组头补1
-        result
+
+        // 如果到这里还需要进1, 说明前面的位数不够, 如 99999
+        digits_shadow.insert(0, 1);
+        digits_shadow
     }
 }
 // @lc code=end

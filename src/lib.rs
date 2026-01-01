@@ -108,3 +108,4 @@ pub mod _1854_maximum_population_year;
 pub mod _1913_maximum_product_difference_between_two_pairs; // 1127
 
 pub mod _3074_apple_redistribution_into_boxes;
+pub mod _60_permutation_sequence;
